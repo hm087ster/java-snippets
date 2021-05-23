@@ -1,3 +1,4 @@
+//Key - creates a GUI that detects user input and triggers an output if a particular key letter is entered.
 
 import java.awt.event.*;
 import javax.swing.*;
