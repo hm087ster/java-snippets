@@ -1,4 +1,5 @@
-//Calculator - uses an arithmetic symbol to return the values of two integers
+//Calculator - returns the values of two integers using arithmetic.
+
 public class Calc {
 
 	static int Add(int a, int b){
