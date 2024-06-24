@@ -1,0 +1,31 @@
+
+public class Calc {
+
+	static int add(int a, int b) {
+		return a+b;
+		
+	}
+	
+	static int minus(int a, int b) {
+		return b-a;
+		
+	}
+	
+	static int times(int a, int b) {
+		return a*b;
+		
+	}
+	
+	static int divide(int a, int b) {
+		return b/a;
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("a + b = "+ add(3,4));
+		System.out.println("b - a = "+ minus(3,4));
+		System.out.println("a * b = "+ times(3,4));
+		System.out.println("b / a = "+ divide(3,4));
+	}
+
+}
